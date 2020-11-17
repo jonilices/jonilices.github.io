@@ -387,8 +387,8 @@ footer .redes-sociales .instagram:hover {
         text-align: center;
     }
 
-    .main .trabajos .contenedor-trabajos .trabajo {
-        width: 100%;
+    .main .trabajos .contenedor .contenedor-trabajos .trabajo {
+        width: 90%;
     }
 }
 
