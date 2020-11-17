@@ -410,3 +410,28 @@ footer .redes-sociales .instagram:hover {
         width: 100%;
     }
 }
+
+
+@media screen and (max-width: 500px){
+    header .menu a {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    header {
+        height: 450px;
+    }
+
+    header .contenedor-texto {
+        width: 100%;
+        margin: auto;
+    }
+
+    header .contenedor-texto .texto .nombre {
+        font-size: 25px;
+    }
+
+    header .contenedor-texto .texto .profesion {
+        font-size: 18px;
+    }
+}
