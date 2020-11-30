@@ -21,6 +21,10 @@ body {
     overflow: hidden;
 }
 
+.blank-space {
+    height: 80px;
+}
+
 /* ---- HEADER ----*/
 
 header {
@@ -69,7 +73,7 @@ header .contenedor-texto .texto {
     border-radius: 3px;
     display: inline-block;
     text-align: center;
-    padding: 20px 60px;
+    padding: 50px 70px;
 }
 
 header .contenedor-texto .texto h1{
@@ -107,6 +111,7 @@ header .contenedor-texto .texto .profesion {
 
 .main .acerca-de .contenedor .foto {
     margin-top: -130px;
+    margin-bottom: 100px;
 }
 
 .main .acerca-de .contenedor .foto img {
@@ -125,7 +130,7 @@ header .contenedor-texto .texto .profesion {
 }
 
 .main .acerca-de .texto {
-    color: #5a5a5a;
+    color: #111;
     font-weight: 600;
     font-size: 1.1em;
     line-height: 30px;
@@ -133,7 +138,15 @@ header .contenedor-texto .texto .profesion {
     margin: 40px auto 60px auto;
 }
 
+.titles {
+    width: 60%;
+    margin: auto;
+}
+
 .main .acerca-de .texto .titulo {
+    border: 2px solid #111;
+    border-radius: 3px;
+    padding: 20px;
     font-size: 34px;
     margin-bottom: 40px;
     font-weight: 400;
@@ -143,7 +156,11 @@ header .contenedor-texto .texto .profesion {
 }
 
 .main .acerca-de .texto .subtitle {
-    font-size: 26px;
+    font-size: 29px;
+}
+
+.main .acerca-de .texto .subtitle span{
+    color: #111;
 }
 
 .main .acerca-de .texto .bold {
@@ -208,10 +225,39 @@ header .contenedor-texto .texto .profesion {
     overflow: hidden;
 }
 
+.main .trabajos .contenedor-description {
+    padding: 60px;
+    width: 80%;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+
 .main .trabajos .titulo {
+    border: 2px solid #111;
+    border-radius: 3px;
+    padding: 20px;
     font-size: 34px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #1B211F;
+    text-align: center;
+    line-height: 34px;
+}
+
+.main .trabajos .titulo-projects {
+    font-size: 28px;
     margin-bottom: 100px;
     font-weight: 400;
+    color: #1B211F;
+    text-align: center;
+    line-height: 34px;
+}
+
+.main .trabajos .projectsDescription {
+    font-size: 23px;
+    margin-bottom: 100px;
+    font-weight: 300;
     color: #1B211F;
     text-align: center;
     line-height: 34px;
@@ -409,11 +455,23 @@ footer .redes-sociales .instagram:hover {
     .main .tech-contenedor .contenedor .tarjeta {
         width: 100%;
     }
+
+    .main .trabajos .contenedor-description {
+        padding: 10px;
+        width: 80%;
+        overflow: hidden;
+        margin: 10px auto;
+    }
+
+    .titles {
+        width: 100%;
+    }
 }
 
 
 @media screen and (max-width: 500px){
     header .menu a {
+        display: none;
         font-size: 12px;
         text-align: center;
     }

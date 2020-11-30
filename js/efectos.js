@@ -21,9 +21,17 @@ $(document).ready(function(){
         }, 2000);
     }
 
+    //Efecto de escrito
+    var typed = new Typed(".typed", {
+        strings:["Data Scientist.", "Developer.", "Designer.", "Freelancer."],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
     //Scroll automatico
     var acercaDe = $('#acerca-de').offset().top,
-        myProjects = $('#trabajos').offset().top,
+        myProjects = $('#trabajos').offset().top+100,
         contact = $('#contacto').offset().top;
 
     $('#btn-acerca-de').on('click', function(e){

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Proyecto</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -22,7 +23,7 @@
             <div class="contenedor-texto">
                 <div class="texto">
                     <h1 class="nombre">Jonathan Lices</h1>
-                    <h2 class="profesion">Self-Taught Developer</h2>
+                    <!-- <h2 class="profesion">Self-Taught Developer</h2> -->
                 </div>
             </div>
         </div>
@@ -34,11 +35,13 @@
         <section class="acerca-de" id="acerca-de">
             <div class="contenedor">
                 <div class="foto">
-                    <img src="Image/profile.jpg" width="250" height="250" alt="Perfil Jonathan">
+                    <img src="Image/profile-2.jpg" width="250" height="250" alt="Perfil Jonathan">
                 </div>
                 <div class="texto">
-                    <h3 class="titulo">About Me</h3>
-                    <p class="subtitle">Graduated in Physics. Passionate about Coding.</p>
+                    <div class="titles">
+                        <h3 class="titulo">About Me</h3>
+                    </div>    
+                    <p class="subtitle">Hello, my name is Jonathan and I'm a <span class="typed"></span></p>
                     <p>After finishing my degree, I started spending every minute of my free time in learning Machine Learning and Wev Development. Currently, I'm open to work and willing to become a great Data Scientist or Web Developer. This is a showcase of my projects and abilities.</p>
                 </div>
             </div>
@@ -60,7 +63,7 @@
                     <h3 class="titulo"> Front & Back Development</h3>
                     <p class="descripcion">I've crossed ways with this path a couple of times and I'm very curious about it. Currently I'm enrolled in a Full Stack Development Bootcamp.</p>
                     <p class="lenguaje">Languages & tools I've learned</p>
-                    <p class="descripcion">Java, JavaSript, HTML5, CSS3, React, JQuery, RWD, Bootstrap4, Wordpress, SASS, FlexBox</p>
+                    <p class="descripcion">Java, JavaSript, HTML5, CSS3, JQuery, RWD, Bootstrap4, Wordpress, SASS, FlexBox</p>
                 </div>
                 <div class="tarjeta">
                     <a><i class="fa fa-code" aria-hidden="true"></i></a>
@@ -75,10 +78,18 @@
         <!-- Trabajos -- main -->
 
         <section class="trabajos" id="trabajos">
+            <div class="contenedor-description">
+                <div class="titles">
+                    <h3 class="titulo">My projects</h3>
+                </div> 
+                <p class="projectsDescription">This is a showcase of some of my projects in Data Science, Machine Learning, Deep Learning and Web Development.</p>
+            </div>
+
+            <!-- DATA SCIENCE PROJECTS -->
             <div class="contenedor">
-                <h3 class="titulo">My Projects</h3>
+                <h3 class="titulo-projects">Data Science & Machine Learning Projects</h3>
                 <div class="contenedor-trabajos">
-                     <!--Trabajo 2-->
+                     <!--Trabajo 4-->
                      <div class="trabajo">
                         <div class="thumb">
                             <a href="https://www.kaggle.com/jonilices/churn-modelling-with-light-gbm-and-ann" target="_blank">
@@ -110,7 +121,7 @@
                             </p>
                         </div>
                     </div>
-                     <!--Trabajo 4-->
+                     <!--Trabajo 2-->
                      <div class="trabajo">
                         <div class="thumb">
                             <a href="https://github.com/jonilices/Analisis-CoVid-19" target="_blank">
@@ -145,6 +156,49 @@
                     
                 </div>
             </div>
+
+            <div class="blank-space"></div>
+
+            <!------- WEB DEVELOPMENT PROJECT -->
+            <div class="contenedor">
+                <h3 class="titulo-projects">Web Development Projects</h3>
+                <div class="contenedor-trabajos">
+                     <!--Trabajo 2-->
+                     <div class="trabajo">
+                        <div class="thumb">
+                            <a href="https://bbt-otra.github.io" target="_blank">
+                                <img src="Image/web-2.png" alt="Restaurant website">
+                            </a>    
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">
+                                BAR/RESTAURANT WEBSITE
+                            </p>
+                            <p class="categoria">
+                                A complete website for a restaurant. Made with JavaScript, Jquery, Parallax, CSS, HTML.
+                            </p>
+                        </div>
+                    </div>
+                     <!--Trabajo 1-->
+                     <div class="trabajo">
+                        <div class="thumb">
+                            <a href="https://jonilices.github.io" target="_blank">
+                                <img src="Image/web-1.png" alt="Portfolio image">
+                            </a>    
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">
+                                PERSONAL PORTFOLIO
+                            </p>
+                            <p class="categoria">
+                                Just this website. A complete portfolio made with JavaScript, CSS, HTML & JQuery.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
         </section>
     </section>
 
